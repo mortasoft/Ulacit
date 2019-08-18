@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/RestauranteSOAP/Estudiantes?wsdl" uri="xml-resources/web-service-references/Estudiantes/wsdl/localhost_8080/RestauranteSOAP/Estudiantes.wsdl"/>
+    <system systemId="http://localhost:8080/RestauranteSOAP/Estudiantes?xsd=1" uri="xml-resources/web-service-references/Estudiantes/wsdl/localhost_8080/RestauranteSOAP/Estudiantes.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ProyectosSOAP2/Estudiantes?wsdl" uri="xml-resources/web-service-references/Estudiantes/wsdl/localhost_8080/ProyectosSOAP2/Estudiantes.wsdl"/>
+    <system systemId="http://localhost:8080/ProyectosSOAP2/Estudiantes?xsd=1" uri="xml-resources/web-service-references/Estudiantes/wsdl/localhost_8080/ProyectosSOAP2/Estudiantes.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ServidorSOAP/Estudiantes?wsdl" uri="xml-resources/web-service-references/Estudiantes/wsdl/localhost_8080/ServidorSOAP/Estudiantes.wsdl"/>
+    <system systemId="http://localhost:8080/ServidorSOAP/Estudiantes?xsd=1" uri="xml-resources/web-service-references/Estudiantes/wsdl/localhost_8080/ServidorSOAP/Estudiantes.xsd_1.xsd"/>
+</catalog>
