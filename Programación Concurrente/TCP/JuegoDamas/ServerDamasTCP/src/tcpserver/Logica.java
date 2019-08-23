@@ -22,7 +22,7 @@ public class Logica {
             if (jugadoresConectados == 2) {
                 sendData("Si", out);
             } else {
-                System.out.println("Enviando al cliente que no....");
+                System.out.println(Server.generarFecha()+"Enviando al cliente que no ha iniciado el ....");
                 sendData("No, jugadores conectados: " + jugadoresConectados, out);
             }
         } else {
