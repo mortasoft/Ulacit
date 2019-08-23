@@ -1,0 +1,4 @@
+Computer|1
+You|0
+b| o o o oo o   o        oo            X oX X      X   X XX X X X 
+6

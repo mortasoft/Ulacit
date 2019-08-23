@@ -1,0 +1,4 @@
+./resources/pikachu.png
+./resources/raichu.png
+./resources/magikarp.png
+./resources/gyarados.png
