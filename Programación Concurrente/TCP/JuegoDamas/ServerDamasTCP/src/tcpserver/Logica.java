@@ -23,7 +23,7 @@ public class Logica {
                 sendData("Si", out);
             } else {
                 System.out.println("Enviando al cliente que no....");
-                sendData("No", out);
+                sendData("No, jugadores conectados: " + jugadoresConectados, out);
             }
         } else {
             // Si son dos jugadores conectados inicia el juego, sino se espera...

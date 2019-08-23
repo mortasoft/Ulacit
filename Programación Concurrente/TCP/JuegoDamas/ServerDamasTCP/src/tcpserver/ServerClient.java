@@ -48,7 +48,7 @@ public class ServerClient implements Runnable {
 
         } catch (Exception ex) {
             in = new ObjectInputStream(socket.getInputStream());
-            out = new ObjectOutputStream(socket.getOutputStream());
+            //out = new ObjectOutputStream(socket.getOutputStream());
             System.out.println(Server.generarFecha() + "Readdata: Error al leer mensaje: " + ex.getMessage());
         }
     }

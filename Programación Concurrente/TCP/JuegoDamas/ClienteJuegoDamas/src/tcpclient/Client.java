@@ -17,7 +17,6 @@ public class Client extends Thread {
     private String numJugador;
     private String server;
     private boolean isUp = true;
-    private boolean gameStart = false;
 
     public Client(String server) {
         try {
@@ -41,7 +40,7 @@ public class Client extends Thread {
         }
     }
 
-    public void sendData(String mensaje) {
+    public void sendData(String mensaje) throws IOException {
         try {
             System.out.println(generarFecha() + "Enviando al servidor el mensaje: " + mensaje);
             out.writeUTF(mensaje);
@@ -58,6 +57,8 @@ public class Client extends Thread {
 
     public void readData() {
         try {
+
+            System.out.println("Esperando mensaje... ");
 
             String info = in.readUTF();
             System.out.println("Mensaje recibido: " + info);
@@ -83,7 +84,7 @@ public class Client extends Thread {
 
                 try {
 
-                    if (!gameStart) {
+                    while (!ClienteDamas.gameStart) {
                         System.out.println("Enviando ya inició");
                         sendData("yaInicio?");
                         readData();
