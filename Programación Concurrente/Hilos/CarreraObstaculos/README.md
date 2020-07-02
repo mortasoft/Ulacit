@@ -18,3 +18,6 @@ Los obstaculos que puede poner el hilo son los siguientes:
 - Segundo obstaculo puedo retrasar al competidor 100 milisegundos
 - Tercer obstaculo puedo retrasar al competidor 300 milisegundos
 - Cuarto obstaculo puedo retrasar al competidor 1000 milisegundos
+
+# Pendiente
+- [ ] Hilo que pone obstaculos en la carrera
